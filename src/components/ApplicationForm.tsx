@@ -72,7 +72,7 @@ const ApplicationForm = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3000/api/submit-application', {
+      const response = await fetch('https://ferkoalhamdu.onrender.com/api/submit-application', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
