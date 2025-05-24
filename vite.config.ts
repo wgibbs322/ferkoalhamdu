@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: Number(process.env.VITE_PORT) || 3000,
+    port: Number(process.env.PORT) || 3000, // Correct env variable for Render
   },
-}); 
+});
